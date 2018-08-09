@@ -347,11 +347,7 @@
 <script>
     var element = layui.element;
 
-    function NumberCheck(obj){
-        let price = 2;
-        obj.value = obj.value.replace(/[^\d]/g, ""); //清除"数字"以外的字符
-        $('.btczong').html(obj.value*price);
-    }
+
 </script>
 </body>
 </html>
